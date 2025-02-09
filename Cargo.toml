@@ -8,6 +8,17 @@ description = "Bindings to flanterm terminal"
 readme = "README.md"
 documentation = "https://docs.rs/flanterm"
 repository = "https://github.com/morr0ne/flanterm"
-include = ["src/**/*.rs", "README.md", "LICENSE"]
+include = [
+    "src/**/*.rs",
+    "README.md",
+    "LICENSE",
+    "build.rs",
+    "flanterm/*",
+    "!flanterm/.gitignore",
+    "!flanterm/README.md",
+]
 
 [dependencies]
+
+[build-dependencies]
+cc = "1.2.13"
