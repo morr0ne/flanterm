@@ -16,7 +16,13 @@ name = "flanterm"
 version = "0.0.2"
 dependencies = [
  "cc",
+ "limone",
 ]
+
+[[package]]
+name = "limone"
+version = "0.0.5"
+source = "git+https://github.com/piuma-os/limone#5e80c360a46f6270d819161156c57d8f3fd3bb27"
 
 [[package]]
 name = "shlex"
